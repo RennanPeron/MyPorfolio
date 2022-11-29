@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #837E9F;
+}
+
+p {
+    font-size: 13px
+}
+
+h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+body {
+    background: url(../img/Fundo.png) #121214 no-repeat;
+    background-size: cover;
+}
+
+.window {
+    border-radius: 20px;
+    min-height: 100px;
+    width: 80%;
+    margin: 10% auto;
+    padding: 32px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    text-align: center;
+    padding-bottom: 49px;
+}
+
+#picture {
+    width: 128px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
