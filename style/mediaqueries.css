@@ -1,0 +1,9 @@
+@media (min-width: 375px) {
+    .informations img {
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 426px) {
+
+}

@@ -1,0 +1,102 @@
+/* TABS STYLE */
+
+.window {
+    border-radius: 20px;
+    min-height: 100px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 32px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.grid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ASIDE TABS STYLE */
+
+.informations  div {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.informations img {
+    padding-right: 8px;
+}
+
+.profile {
+    text-align: center;
+    padding-bottom: 49px;
+}
+
+#picture {
+    width: 128px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.skills {
+    background-color: #CB92B1;
+    border-radius: 25px;
+    padding: 8px;
+    margin-bottom: 15px;
+    min-width: 30%;
+    text-align: center;
+    color: #121214;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.window ul {
+    margin: 12px 20px;
+}
+
+li p {
+    padding-bottom: 2px;
+}
+
+.list-header {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.repositories {
+    margin-top: 0;
+    justify-content: start;
+}
+
+.repository {
+    padding: 16px 0;
+}
+
+.repository p {
+    padding: 8px 0;
+}
+
+.repositoryName {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.repositoryName img {
+    width: 16px;
+    margin-right: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info img:not(:first-child){
+    margin-left: 16px;
+}
