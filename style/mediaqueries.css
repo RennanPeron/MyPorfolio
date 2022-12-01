@@ -4,6 +4,34 @@
     }
 }
 
-@media (min-width: 426px) {
+@media (min-width: 630px) {
+    body { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .window {
+        width: calc(100% - 40px);
+    }
+    
+}
+
+@media (min-width: 925px) {
+    body { 
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .repositories {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 1248px) {
+    body { 
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
 }
