@@ -9,80 +9,80 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/mobile.css">
-    <link rel="stylesheet" href="style/mediaqueries.css">
+    <!-- <link rel="stylesheet" href="style/mediaqueries.css"> -->
 </head>
 <body>
-    <aside>
-        <div class="window profile">
-            <img id="picture" src="https://media-exp1.licdn.com/dms/image/D4D35AQGEecmcojiS6A/profile-framedphoto-shrink_200_200/0/1662310872062?e=1670292000&v=beta&t=rzwVVt6ykcgL6KN_5v2swLSPwH7uo_vgpjTRIaqbdSE" alt="Me :)">
-            <h1>Rennan Oliveira</h1>
-            <p>Desenvolvedor Front End</p>
-        </div>
-        <div class="window informations">
-            <div>
-                <img src="img/map-pin.svg" alt="icon">
-                <p>Rio de Janeiro, Brasil</p>
+    <div class="container">
+        <aside>
+            <div class="box profile">
+                <img id="picture" src="https://media-exp1.licdn.com/dms/image/D4D35AQGEecmcojiS6A/profile-framedphoto-shrink_200_200/0/1662310872062?e=1670292000&v=beta&t=rzwVVt6ykcgL6KN_5v2swLSPwH7uo_vgpjTRIaqbdSE" alt="Me :)">
+                <h1>Rennan Oliveira</h1>
+                <p>Desenvolvedor Front End</p>
             </div>
-            <div>
-                <img src="img/github.svg" alt="">
-                <p>Rennan Peron</p>
+            <div class="box informations">
+                <div>
+                    <img src="img/map-pin.svg" alt="icon">
+                    <p>Rio de Janeiro, Brasil</p>
+                </div>
+                <div>
+                    <img src="img/github.svg" alt="">
+                    <p>Rennan Peron</p>
+                </div>
+                <div>
+                    <img src="img/linkedin.svg" alt="icon">
+                    <p><a href="https://www.linkedin.com/in/rennan-oliveira-2675b8194/">Rennan Oliveira</a></p>
+                </div>
+                <div>
+                    <img src="img/globe.svg" alt="icon">
+                    <p><a href="www.google.com">teste.com</a></p>
+                </div>
+                <div >
+                    <img src="img/mail.svg" alt="icon">
+                    <p>rennanperon01@gmail.com</p>
+                </div>
             </div>
-            <div>
-                <img src="img/linkedin.svg" alt="icon">
-                <p><a href="https://www.linkedin.com/in/rennan-oliveira-2675b8194/">Rennan Oliveira</a></p>
+            <div class="box technologies">
+                <h2>Tecnologia</h2>
+                <div class="grid">
+                    <div class="skills">HTML</div>
+                    <div class="skills">CSS</div>
+                    <div class="skills">Javascript</div>
+                    <div class="skills">Bootstrap</div>
+                    <div class="skills">Github</div>
+                    <div class="skills">NodeJs</div>
+                </div>
             </div>
-            <div>
-                <img src="img/globe.svg" alt="icon">
-                <p><a href="www.google.com">teste.com</a></p>
+            <div class="box experience">
+                <h2>Experiências</h2>
+                <ul>
+                    <li>
+                        <p class="list-header">Essia</p>
+                        <p>01/2022 - 09/2022</p>
+                        <p>Conversão de Conteúdo - Estágio</p>
+                    </li>
+                </ul>
             </div>
-            <div >
-                <img src="img/mail.svg" alt="icon">
-                <p>rennanperon01@gmail.com</p>
+            <div class="box education">
+                <h2>Educação</h2>
+                <ul>
+                    <li>
+                        <p class="list-header">Unicarioca</p>
+                        <p>2018 - 2023</p>
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                    </li>
+                    <li>
+                        <p class="list-header">Udemy</p>
+                        <p>2019</p>
+                        <p>Curso de Desenvolvimento Web</p>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="window technologies">
-            <h2>Tecnologia</h2>
-            <div class="grid">
-                <div class="skills">HTML</div>
-                <div class="skills">CSS</div>
-                <div class="skills">Javascript</div>
-                <div class="skills">Bootstrap</div>
-                <div class="skills">Github</div>
-                <div class="skills">NodeJs</div>
+        </aside>
+        <main>
+            <div class="box header">
+                <h2>My Projects</h2>
             </div>
-        </div>
-        <div class="window experience">
-            <h2>Experiências</h2>
-            <ul>
-                <li>
-                    <p class="list-header">Essia</p>
-                    <p>01/2022 - 09/2022</p>
-                    <p>Conversão de Conteúdo - Estágio</p>
-                </li>
-            </ul>
-        </div>
-        <div class="window education">
-            <h2>Educação</h2>
-            <ul>
-                <li>
-                    <p class="list-header">Unicarioca</p>
-                    <p>2018 - 2023</p>
-                    <p>Análise e Desenvolvimento de Sistemas</p>
-                </li>
-                <li>
-                    <p class="list-header">Udemy</p>
-                    <p>2019</p>
-                    <p>Curso de Desenvolvimento Web</p>
-                </li>
-            </ul>
-        </div>
-    </aside>
-    <main>
-        <div class="window">
-            <h2>My Projects</h2>
-        </div>
-        <div class="repositories">
-            <div class="repository window">
+            <div class="item">
                 <div class="repositoryName">
                     <img src="img/folder.svg" alt=""> 
                     <p>Teste</p>
@@ -99,7 +99,7 @@
                     <p>Linguagem</p>
                 </div>
             </div>
-            <div class="repository window">
+            <div class="item">
                 <div class="repositoryName">
                     <img src="img/folder.svg" alt=""> 
                     <p>Teste</p>
@@ -116,7 +116,7 @@
                     <p>Linguagem</p>
                 </div>
             </div>
-            <div class="repository window">
+            <div class="item">
                 <div class="repositoryName">
                     <img src="img/folder.svg" alt=""> 
                     <p>Teste</p>
@@ -133,9 +133,7 @@
                     <p>Linguagem</p>
                 </div>
             </div>
-        </div>
-        <!-- <div class="window">
-        </div> -->
-    </main>
+        </main>
+    </div>
 </body>
 </html>

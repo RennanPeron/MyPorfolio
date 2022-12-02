@@ -10,7 +10,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .window {
+    .box {
         width: calc(100% - 40px);
     }
 
