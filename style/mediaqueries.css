@@ -13,6 +13,7 @@
     .window {
         width: calc(100% - 40px);
     }
+
     
 }
 
@@ -26,6 +27,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
+    }
+    
+    .repository {
+        margin: 0 auto;
     }
 }
 
