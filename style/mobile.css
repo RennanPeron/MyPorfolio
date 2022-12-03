@@ -3,10 +3,6 @@
     padding: 40px;
 }
 
-.box, .item:not(:last-child)  {
-    margin-bottom: 30px;
-}
-
 /* GENERAL TABS STYLE */
 .box, .item {
     padding: 32px;
