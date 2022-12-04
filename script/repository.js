@@ -1,5 +1,4 @@
 function renderRepos(name, description, stars, forks) {
-    console.log(name, description)
     document.querySelector("main").innerHTML +=`
     <div class="item">
         <div class="repositoryName">
