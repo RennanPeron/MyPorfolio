@@ -1,6 +1,17 @@
 function renderRepos(items) {
+
     items.forEach((item) => {
-        console.log(item)
+        
+        let className = 'color'
+
+        if(item.language == "HTML") {
+            className = "color orange"
+        } else if (item.language == "CSS") {
+            className = "color purple"
+        } else if (item.language == "JavaScript") {
+            className = "color yellow"
+        }
+
         document.querySelector("main").innerHTML +=`
         <div class="item">
             <div class="repositoryName">
@@ -16,9 +27,13 @@ function renderRepos(items) {
                     <img src="img/git-branch.svg" alt="branch">
                     <p>${item.forks}</p>
                 </div>
-                <p>${item.language}</p>
+                <div class="languageBox">
+                    <span class="${className}"></span>
+                    <p class="language">${item.language}</p>
+                </div>
             </div>
         </div>
         `
     })
+
 }
