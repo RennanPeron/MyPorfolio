@@ -90,6 +90,10 @@ li p {
     align-items: center;
 }
 
+.info p {
+    padding: 0 8px;
+}
+
 .info img:not(:first-child){
     margin-left: 16px;
 }
