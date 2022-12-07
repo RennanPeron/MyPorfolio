@@ -115,3 +115,26 @@ li p {
 .info img:not(:first-child){
     margin-left: 16px;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 300px;
+    align-items: center;
+    background-image: url("../img/sneaker.png");
+    background-image: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%), url("../img/sneaker.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projects button {
+    border: none;
+    background-color: #563d7c;
+    color: #CB92B1;
+    width: 120px;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 6px 0;
+}
