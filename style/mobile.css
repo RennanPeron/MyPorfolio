@@ -121,20 +121,20 @@ li p {
     flex-direction: column;
     justify-content: end;
     height: 300px;
+    padding-bottom: 18px;
     align-items: center;
-    background-image: url("../img/sneaker.png");
-    background-image: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%), url("../img/sneaker.png");
-    background-position: top center;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-color: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%);
+    background-position: top center;
+    background-repeat: no-repeat; */
 }
 
 .projects button {
     border: none;
-    background-color: #563d7c;
-    color: #CB92B1;
+    background-color: #46418A;
+    color: #A8A5D6;
     width: 120px;
     border-radius: 25px;
     padding: 4px;
-    margin: 6px 0;
+    margin: 0 6px;
 }
