@@ -116,6 +116,15 @@ li p {
     margin-left: 16px;
 }
 
+.one {
+    background: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%), no-repeat center top / cover url("../img/Sneakers.png");
+}
+
+.two {
+    background: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%), no-repeat center top / cover url("../img/Netflix\ Clone.png");
+}
+
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -123,18 +132,18 @@ li p {
     height: 300px;
     padding-bottom: 18px;
     align-items: center;
-    background-size: cover;
-    /* background-color: linear-gradient(to bottom, rgba(224, 34, 34, 0) 0%, #302F3D  70%);
-    background-position: top center;
-    background-repeat: no-repeat; */
 }
 
-.projects button {
+.div{
+    margin-top: 16px;
+}
+
+.projects a {
     border: none;
     background-color: #46418A;
     color: #A8A5D6;
     width: 120px;
     border-radius: 25px;
-    padding: 4px;
-    margin: 0 6px;
+    padding: 6px 18px;
+    margin: 6px;
 }
