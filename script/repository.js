@@ -16,7 +16,7 @@ function renderRepos(items) {
         <div class="item">
             <div class="repositoryName">
                 <img src="img/folder.svg" alt=""> 
-                <p>${item.name}</p>
+                <a target="_blank" href="${item.url}">${item.name}</a>
             </div>
             <div class="description">
                 <p>${item.description}</p>

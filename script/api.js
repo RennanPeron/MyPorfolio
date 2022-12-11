@@ -11,7 +11,7 @@ function getApiGitHub() {
             var repository = new Object()
             if(item.updated_at)
             repository.name = item.name
-            repository.url = item.url
+            repository.url = item.html_url
             repository.description = item.description
             repository.stars = item.stargazers_count
             repository.forks = item.forks
