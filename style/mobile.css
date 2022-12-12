@@ -13,6 +13,11 @@
 
 /* ASIDE TABS STYLE */
 
+#picture {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .informations  div {
     display: flex;
     align-items: center;
