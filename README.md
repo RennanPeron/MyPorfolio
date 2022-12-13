@@ -1,5 +1,5 @@
 # Meu Portfolio
-![preview](./.github/Screenshot.png)
+![preview](./.github/screenshot.png)
 
 Projeto construído com intuito de compartilhar algumas formas de contato e projetos que eu curti fazer.
 
