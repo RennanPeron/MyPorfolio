@@ -17,7 +17,7 @@ function getApiGitHub() {
             repository.forks = item.forks
             repository.language = item.language
             repository.date = Intl.DateTimeFormat("fr-CA", {year: "numeric"}).format(new Date(item.updated_at))
-            if(repository.date == "2022"){
+            if(repository.date == "2022" || repository.date == "2022"){
                 repos.push(repository)
             }
         })
